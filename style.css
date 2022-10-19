@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-Light {
+    background-color: white;
+}
+
+.nav-btn:hover {
+    background-color: white;
+    border: 2px solid red;
+    color: red
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.banner {
+    background-image: url(Images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, .5);
+    height: 620px;
+}
+
+.textDark {
+    color: rgb(0, 0, 0);
+}
+
+.ban-inp {
+    border: none;
+}
+
+.ban-inp::placeholder {
+    color: black;
+}
+
+.partners img.partners {
+    opacity: 0.4;
+    margin: 10px 15px;
+    max-height: 55px;
+    transition: all 0.25s ease-in-out;
+}
+
+.partners img.partners:hover {
+    opacity: 1;
+}
+
+.partners-title {
+    font-size: 18px;
+    line-height: 78px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.ser-pro-sec {
+    background-color: rgba(207, 235, 252, 0.432);
+}
+
+.ser-box .ser-box-h,.ser-box-h5,.ser-box-p {
+    transition: all 0.25s ease-in-out;
+}
+
+.ser-box:hover .ser-box-h,.ser-box-h5,.ser-box-p {
+    font-size: 48px;
+}
+
+.abt-sec2 {
+    background-color: rgba(207, 235, 252, 0.432);
+}
+
+.abt-box {
+    background: white;
+}
+
+.bgLight {
+    border-radius: 8px;
+    background-color: white;
+    transition: all 0.25s ease-in-out;
+}
+
+.bgLight1 {
+    transition: all 0.25s ease-in-out;
+}
+
+.bgLight1:hover {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.bgLight2 {
+    transition: all 0.25s ease-in-out;
+}
+
+.bgLight2:hover {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.fun-fact-sec {
+    background-image: url(Images/bg3.jpg);
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.container-red {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.say-sec {
+    background-color: rgba(207, 235, 252, 0.432);
+}
+
+.test-m {
+    border-radius: 50%;
+}
+
+.customAccordion {
+    border-left: 5px solid green;
+}
+
+.cus-bor {
+    border-right: 2px solid lightgray;
+}
+
+.por-img {
+    transition: all 0.25s ease-in-out;
+}
+
+a:hover {
+    opacity: rgba(255, 0, 0, 0.658);
+}
+
+.team-sec {
+    background-color: rgba(207, 235, 252, 0.432);
+}
+
+.team-box {
+    border-radius: 8px 8px 0 0;
+}
+
+.team {
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+}
+.award-sec {
+    background-image: url(Images/bg3.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+}
+.awd-container-red {
+    background-color: rgba(255, 0, 0, 0.8);
+    height: 400px;
+}
+
+.awd-btn-1 {
+    border: none;
+    outline: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 24px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    box-shadow: 10px 10px 40px black;
+    transition: all 0.25s ease-in-out;
+}
+
+.awd-btn-1:hover {
+    box-shadow: 5px 5px 20px black;
+}
+
+.awd-btn-2 {
+    border: none;
+    outline: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 24px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    box-shadow: 10px 10px 40px black;
+    transition: all 0.25s ease-in-out;
+}
+
+.awd-btn-2:hover {
+    background-color: white;
+    color: red;
+    box-shadow: 5px 5px 20px black;
+}
+
+.price-sec {
+    background-color: rgba(207, 235, 252, 0.432);
+}
+
+.price-box {
+    background: white;
+}
+
+.big {
+    font-size: 72px;
+}
+
+.price-btn {
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    color: red;
+}
+
+.price-btn:hover {
+    color: white;
+}
+
+.price-box-red {
+    background: red;
+}
+
+.price-btn-red {
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    color: red;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    transition: all 0.25s ease-in-out;
+}
+
+.price-btn-red:hover {
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+}
+
+.light {
+    color: rgba(128, 128, 128, 0.637);
+}
+
+.contact-sec {
+    background-image: url(Images/bg3.jpg);
+    background-attachment: fixed;
+}
+
+.overlay-red {
+    background-color: rgba(255, 0, 0, 0.801);
+}
+
+.customCss {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 12px;
+    line-height: 36px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.customCss1 {
+    line-height: 36px;
+    font-size: 26px;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+    padding-left: 5px;
+}
+
+option {
+    color: black;
+}
+
+.contact-btn {
+    border: none;
+    outline: none;
+    padding: 20px 100px 20px 100px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 0.25s ease-in-out;
+}
+
+.contact-btn:hover {
+    background-color: rgb(218, 218, 218);
+}
